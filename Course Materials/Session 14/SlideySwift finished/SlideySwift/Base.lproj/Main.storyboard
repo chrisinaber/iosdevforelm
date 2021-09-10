@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SlideySwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X value" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Uq-YC-b9T">
+                                <rect key="frame" x="107" y="742" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="N8p-eD-WiE"/>
+                                    <constraint firstAttribute="height" constant="30" id="gVs-T3-nHc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Y-value" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qH7-Ff-wCO">
+                                <rect key="frame" x="107" y="802" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iyd-NL-GgO"/>
+                                    <constraint firstAttribute="width" constant="200" id="yby-Nz-Pxf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="box.png" translatesAutoresizingMaskIntoConstraints="NO" id="YKe-iT-Lw0">
+                                <rect key="frame" x="150" y="391" width="114" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slidey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHE-8M-E7Y">
+                                <rect key="frame" x="57" y="62" width="300" height="162.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="dp9-4P-3uv"/>
+                                    <constraint firstAttribute="height" constant="162.5" id="wpN-yS-jWs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1Uq-YC-b9T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="50P-xs-6H1"/>
+                            <constraint firstItem="jHE-8M-E7Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="66s-I4-81E"/>
+                            <constraint firstItem="qH7-Ff-wCO" firstAttribute="top" secondItem="1Uq-YC-b9T" secondAttribute="bottom" constant="30" id="NZc-0w-S6o"/>
+                            <constraint firstItem="qH7-Ff-wCO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RLu-8u-YkX"/>
+                            <constraint firstItem="jHE-8M-E7Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="Z0N-hy-Rkx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qH7-Ff-wCO" secondAttribute="bottom" constant="30" id="t2Y-IO-EUc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slidey" destination="YKe-iT-Lw0" id="Gd6-3j-M2x"/>
+                        <outlet property="xValue" destination="1Uq-YC-b9T" id="phw-CI-5Vc"/>
+                        <outlet property="yValue" destination="qH7-Ff-wCO" id="29N-st-hYy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-151" y="42"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="box.png" width="114" height="114"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
