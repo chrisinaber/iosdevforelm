@@ -1,0 +1,585 @@
+{
+  "speakers" : [
+    {
+      "biography" : "Adam Rush is a passionate iOS developer with over 6 years commercial experience, contracting all over the UK & Europe. He's a tech addict and #Swift enthusiast.",
+      "id" : "AdamRush",
+      "twitter" : "adam9rush",
+      "name" : "Adam Rush"
+    },
+    {
+      "biography" : "Agnieszka is a UX designer at Polidea.",
+      "id" : "AgnieszkaCzyzak",
+      "twitter" : "agaczyzak",
+      "name" : "Agnieszka  Czyak"
+    },
+    {
+      "biography" : "With over 16 years in the tech and development industry, for organisations such as Orange and Accenture, Alan ran a successful iOS development agency before joining hedgehog lab to lead the development team.",
+      "id" : "AlanMorris",
+      "twitter" : "dippigu",
+      "name" : "Alan Morris"
+    },
+    {
+      "biography" : "App developer from Coventry, working for Facebook. Likes singing, cooking and playing board games.",
+      "id" : "AmyWorrall",
+      "twitter" : "amyruthworrall",
+      "name" : "Amy Worrall"
+    },
+    {
+      "biography" : "I am a passionate iOS developer. TDD evangelist and Software Architect who cares about quality and creating maintainable and clear code.",
+      "id" : "AndreyKozlov",
+      "twitter" : "a_rayand",
+      "name" : "Andrey Kozlov"
+    },
+    {
+      "biography" : "Chris is one of the organisers for iOSDevUK. He is also a lecturer at Aberystwyth University in Computer Science. He has a number of Apps in the App store to help people to learn Welsh. ",
+      "id" : "ChrisPrice",
+      "twitter" : "iOSDevUK",
+      "name" : "Chris Price"
+    },
+    {
+      "biography" : "Claus supports the iOS Team at HERE as a Tech Lead to create personal mobility services for consumers. Author of AlexaSkillsKit and CCHMapClusterController",
+      "id" : "ClausHofele",
+      "twitter" : "claushoefele",
+      "name" : "Claus Höfele"
+    },
+    {
+      "biography" : "Daniel has been a Cocoa developer since the Java Bridge existed when macOS was known as OS X. He has since made his way up from developing apps for Sky, Tesco, BBC, Nespresso and Danone to the heights of Gok Wan’s glorious fashion app.",
+      "id" : "DanielTull",
+      "twitter" : "danielctull",
+      "name" : "Daniel Tull "
+    },
+    {
+      "biography" : "Joachim is working as an iOS developer at Yelp and he likes to give talks about APIs and tools that are super-valuable in day-to-day live but are often overshadowed by discussions about the newest technologies or yet another architecture style. One of his favorite review-comments is 'there is a formatter for that'. He has seen many ways to do formatting badly and many unnecessary `stringWithFormat:` calls and is trying to fight them where possible",
+      "id" : "JoachimKurz",
+      "twitter" : "cocoafrog",
+      "name" : "Joachim Kurz"
+    },
+    {
+      "biography" : "Martin has been developing for Apple’s platforms for 13 years. More recently he has been trying to get Objective-C and Swift to play nicely with each other, and ranting on Twitter when they don’t.",
+      "id" : "MartinPilkington",
+      "twitter" : "pilky",
+      "name" : "Martin Pilkington"
+    },
+    {
+      "biography" : "Neil helps out with iOSDevUK and worked on the conference App. He also lectures in Computer Science at Aberystwyth University. He works with Chris Price on the Welsh language apps.",
+      "id" : "NeilTaylor",
+      "twitter" : "digidol",
+      "name" : "Neil Taylor"
+    },
+    {
+      "biography" : "Rebecca focuses on mobile and data science - with a special fondness for the intersection of the two. Before getting into programming, she read a lot of philosophy and literature and finds now that poetry and great code aren’t so different.",
+      "id" : "RebeccaEakins",
+      "twitter" : "ohrebeccago",
+      "name" : "Rebecca Eakins"
+    },
+    {
+      "biography" : "Senior iOS Developer at Sainsbury's-Argos in London. Formerly BBC, working on CBeebies, CBBC and iPlayer products. Frequent speaker at meetups and conferences as well as ex-organiser of NSManchester, a meetup for iOS developers in the North-West.",
+      "id" : "RossButler",
+      "twitter" : "ross_w_butler",
+      "name" : "Ross Butler"
+    },
+    {
+      "biography" : "Sam works writing books and giving training for raywenderlich.com",
+      "id" : "SamDavies",
+      "twitter" : "iwantmyrealname",
+      "name" : "Sam Davies"
+    },
+    {
+      "biography" : "Scotty is legendary in the MAC community as the organiser of the sadly defunct NSConference, but still appearing live at iOSDevUK.",
+      "id" : "SteveScott",
+      "twitter" : "macdevnet",
+      "name" : "Steve Scott"
+    },
+    {
+      "biography" : "Steve is Engineering Manager at Boots UK.",
+      "id" : "SteveWestgarth",
+      "twitter" : "stevewestgarth",
+      "name" : "Steve Westgarth"
+    },
+    {
+      "biography" : "Software engineer. Author of the forthcoming Metal Programming Guide. ENFJ. Agent of the revolution. Doer of impossible things.",
+      "id" : "JanieClayton",
+      "twitter" : "redqueencoder",
+      "name" : "Janie Clayton"
+    },
+    {
+      "biography" : "Sarp is a mobile app developer , designer and entrepreneur from Istambul focusing on developing top-notch software products.",
+      "id" : "SarpErdag",
+      "twitter" : "sarperdag",
+      "name" : "Sarp Erdag"
+    },
+    {
+      "biography" : "Elviro worked for some years as a Materials Engineer before focusing on his true passion: functional programming. He is the lead iOS Developer at Facile.it",
+      "id" : "ElviroRocca",
+      "twitter" : "_logicist",
+      "name" : "Elviro Rocca"
+    },
+    {
+      "biography" : "Sash Zats is a designer and generative artist building toools for designers at Facebook. ",
+      "id" : "SashZats",
+      "twitter" : "zats",
+      "name" : "Sash Zats"
+    },
+    {
+      "biography" : "Steven works in Oregon for SoftSource Consulting.",
+      "id" : "StevenGray",
+      "twitter" : "sgray_sftsrc",
+      "name" : "Steven Gray"
+    }
+  ],
+  "talks" : [
+    {
+      "content" : "ARKit is the hot new framework announced at WWDC 2017. This workshop will get your feet wet so that you can create the augmented reality application of your dreams. ",
+      "sessionOrder" : 0,
+      "id" : "arkit",
+      "timeEnd" : "18:00",
+      "title" : "Using ARKit with SpriteKit",
+      "timeStart" : "16:00",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-10",
+      "speakerId" : "JanieClayton",
+      "locationId" : "b23"
+    },
+    {
+      "content" : "Come to Yr Hen Orsaf (local Wetherspoons) when you arrive in Aber, and meet some other delegates. If you are coming to Aber by train, it is easy to find - it's part of the railway station.",
+      "sessionOrder" : 1,
+      "id" : "spoons",
+      "timeEnd" : "23:59",
+      "title" : "Optional Social",
+      "timeStart" : "18:00",
+      "sessionType" : "dinner",
+      "sessionDate" : "2019-12-10",
+      "speakerId" : "",
+      "locationId" : "spoons"
+    },
+    {
+      "content" : "Collect your badge and registration goodies,.",
+      "sessionOrder" : 0,
+      "id" : "registration",
+      "timeEnd" : "09:30",
+      "title" : "Registration",
+      "timeStart" : "09:00",
+      "sessionType" : "registration",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "",
+      "locationId" : "foyer"
+    },
+    {
+      "content" : "A welcome to iOSDevUK 2017 and some information about the conference and the conference meal later today.",
+      "sessionOrder" : 1,
+      "id" : "welcome",
+      "timeEnd" : "09:40",
+      "title" : "Welcome \/ Introduction",
+      "timeStart" : "09:30",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "NeilTaylor",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "The introduction of CoreML in iOS 11 got the community very excited about machine learning, and how it will 'change the world'.",
+      "sessionOrder" : 2,
+      "id" : "coreml",
+      "timeEnd" : "10:20",
+      "title" : "I'll tell you what you can do with Core ML",
+      "timeStart" : "09:40",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "SamDavies",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "Sarp's talk will be about building App Store hits as an indie developer, the strategies he and his partner used to market our products as well as the technologies and design tools we’ve chosen.",
+      "sessionOrder" : 3,
+      "id" : "indieos",
+      "timeEnd" : "11:00",
+      "title" : "Indie iOS Development: Things I've learnt after 5 million downloads",
+      "timeStart" : "10:20",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "SarpErdag",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "Coffee and cakes available in the Physics Foyer. ",
+      "sessionOrder" : 4,
+      "id" : "coffee1",
+      "timeEnd" : "11:30",
+      "title" : "Coffee Break",
+      "timeStart" : "11:00",
+      "sessionType" : "coffee",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "",
+      "locationId" : "foyer"
+    },
+    {
+      "content" : "Now that Swift is open source, can it be made to run on battery-powered Internet of Things devices running at 48-MHz with as little as 20KB of RAM? Let's find out! And along the way we'll also try to answer the question: Why?",
+      "sessionOrder" : 5,
+      "id" : "iotwithswift",
+      "timeEnd" : "12:10",
+      "title" : "Programming the Internet of Things with Swift",
+      "timeStart" : "11:30",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "StevenGray",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "What App Developers Should Know about Server-Side Swift",
+      "sessionOrder" : 6,
+      "id" : "serverswift",
+      "timeEnd" : "12:50",
+      "title" : "What App Developers Should Know about Server-Side Swift",
+      "timeStart" : "12:10",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "ClausHofele",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "Lunch is available in the Physics Foyer, where you registered. ",
+      "sessionOrder" : 7,
+      "id" : "lunch1",
+      "timeEnd" : "14:00",
+      "title" : "Lunch",
+      "timeStart" : "12:50",
+      "sessionType" : "lunch",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "",
+      "locationId" : "foyer"
+    },
+    {
+      "content" : "How Trainline uses Xode UI Automation techniques - with code examples and how to approach it.",
+      "sessionOrder" : 8,
+      "id" : "uiautomation",
+      "timeEnd" : "14:40",
+      "title" : "UI Automation in Mobile Apps",
+      "timeStart" : "14:00",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "AndreyKozlov",
+      "locationId" : "a6"
+    },
+    {
+      "content" : "Animations set iOS apart from Android, they are the signature garnish on top of every app recognized by Apple Design Awards.",
+      "sessionOrder" : 9,
+      "id" : "animation",
+      "timeEnd" : "15:20",
+      "title" : "Taming Animation",
+      "timeStart" : "14:40",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "SashZats",
+      "locationId" : "a6"
+    },
+    {
+      "content" : "Achieving better accessibility, legibility and visual consistency in your app through Dynamic Type support.",
+      "sessionOrder" : 10,
+      "id" : "codesigning",
+      "timeEnd" : "16:00",
+      "title" : "At This Point Size in Time",
+      "timeStart" : "15:20",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "RossButler",
+      "locationId" : "a6"
+    },
+    {
+      "content" : "Coffee and biscuits available in the Physics Foyer. ",
+      "sessionOrder" : 11,
+      "id" : "coffee2",
+      "timeEnd" : "16:30",
+      "title" : "Coffee Break",
+      "timeStart" : "16:00",
+      "sessionType" : "coffee",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "",
+      "locationId" : "foyer"
+    },
+    {
+      "content" : "iOS 11 introduces a new extension point, File Provider, for cloud storage services to hook into the Files app and other apps that support file browsing. Let's learn how to make one!",
+      "sessionOrder" : 12,
+      "id" : "fileextensions",
+      "timeEnd" : "17:10",
+      "title" : "File provider extensions in iOS 11",
+      "timeStart" : "16:30",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "AmyWorrall",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "A detailed talk on how you can make continuous delivery to the App Store. Using Jenkins as the CI and Jira for task management bundled in an automated pipeline to help speed up your App Store delivery process.",
+      "sessionOrder" : 13,
+      "id" : "continuousdelivery",
+      "timeEnd" : "17:50",
+      "title" : "Continuous Delivery",
+      "timeStart" : "17:10",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "AdamRush",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "The meal is ordered. The location is set. The drinks are paid for. Come along and relax and chat about iOS, the Aberystwyth sunset, or anything else you fancy.",
+      "sessionOrder" : 14,
+      "id" : "dinner",
+      "timeEnd" : "22:00",
+      "title" : "Conference Dinner",
+      "timeStart" : "19:00",
+      "sessionType" : "dinner",
+      "sessionDate" : "2019-12-11",
+      "speakerId" : "",
+      "locationId" : "medrus"
+    },
+    {
+      "content" : "Talks on exciting tech of the moment",
+      "sessionOrder" : 1,
+      "id" : "fasttech1",
+      "timeEnd" : "10:40",
+      "title" : "Hi tech fast talks",
+      "timeStart" : "09:30",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-12",
+      "speakerId" : "",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "Coffee and cakes available in the Physics Foyer. ",
+      "sessionOrder" : 2,
+      "id" : "coffee3",
+      "timeEnd" : "11:20",
+      "title" : "Coffee Break",
+      "timeStart" : "10:40",
+      "sessionType" : "coffee",
+      "sessionDate" : "2019-12-12",
+      "speakerId" : "",
+      "locationId" : "foyer"
+    },
+    {
+      "content" : "As iOS developers, it’s our job to leverage Apple's ecosystem to delight our users. In practice, this means making the “right” decisions and moving quickly to deliver each new valuable feature.",
+      "sessionOrder" : 3,
+      "id" : "swiftmemmanagement",
+      "timeEnd" : "12:00",
+      "title" : "Brokering Resources: iOS, the user...& YOU!",
+      "timeStart" : "11:20",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-12",
+      "speakerId" : "RebeccaEakins",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "The concept of functional lens has become pretty popular in functional programming circles, and there are already good contributions for applying lenses to other, traditionally imperative\/OO contexts, like Javascript. I'd like to offer a more in depth view on why lenses can be useful in Swift, and also talk about a similar\/different thing called Prism: it's likely that everyone that's interested in lenses has heard about prisms but it seems like, while the basic intuition behind a lens can be grasped, the one behind a prism is kind of obscure.",
+      "sessionOrder" : 4,
+      "id" : "lensesprisms",
+      "timeEnd" : "12:40",
+      "title" : "Lenses and Prisms in Swift",
+      "timeStart" : "12:00",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-12",
+      "speakerId" : "ElviroRocca",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "Lunch is available in the Physics Foyer, where you registered. ",
+      "sessionOrder" : 5,
+      "id" : "lunch2",
+      "timeEnd" : "14:00",
+      "title" : "Lunch",
+      "timeStart" : "12:40",
+      "sessionType" : "lunch",
+      "sessionDate" : "2019-12-12",
+      "speakerId" : "",
+      "locationId" : "foyer"
+    },
+    {
+      "content" : "As Swift gets more widely used, it is becoming necessary to link it to frameworks written in other languages. Martin explains the features of the language that enable links to a wide range of other languages.",
+      "sessionOrder" : 6,
+      "id" : "multilingual",
+      "timeEnd" : "14:40",
+      "title" : "Multilingual Swift: How to play nicely with other languages",
+      "timeStart" : "14:00",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-12",
+      "speakerId" : "MartinPilkington",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "As Software Engineers, it is our job to surprise and delight our users; providing engaging user experiences that does not detract from the key functionality of our products.",
+      "sessionOrder" : 7,
+      "id" : "guerillas",
+      "timeEnd" : "15:20",
+      "title" : "Working with Guerillas - coding UX in every app",
+      "timeStart" : "14:40",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-12",
+      "speakerId" : "SteveWestgarth",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "Coffee and biscuits available in the Physics Foyer. ",
+      "sessionOrder" : 8,
+      "id" : "coffee4",
+      "timeEnd" : "15:50",
+      "title" : "Coffee Break",
+      "timeStart" : "15:20",
+      "sessionType" : "coffee",
+      "sessionDate" : "2019-12-12",
+      "speakerId" : "",
+      "locationId" : "foyer"
+    },
+    {
+      "content" : "I will talk about how you can provide a Javascript interface to your app and how it can help during development, as well as providing advanced users with increased powers.",
+      "sessionOrder" : 9,
+      "id" : "scriptableios",
+      "timeEnd" : "16:30",
+      "title" : "Making Scriptable iOS Apps",
+      "timeStart" : "15:50",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-12",
+      "speakerId" : "DanielTull",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "This talk will look at the important issues to take into account when making your app accessible.",
+      "sessionOrder" : 10,
+      "id" : "accessibility",
+      "timeEnd" : "17:10",
+      "title" : "What minority are you in? - Accessibility in mobile apps",
+      "timeStart" : "16:30",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-12",
+      "speakerId" : "AgnieszkaCzyzak",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "From Indie to CTO. Overcoming personal fears, such as imposter syndrome, to grow professionally, and the role that attending conferences can play in that journey",
+      "sessionOrder" : 11,
+      "id" : "healthcare",
+      "timeEnd" : "17:50",
+      "title" : "From Indie to CTO",
+      "timeStart" : "17:10",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-12",
+      "speakerId" : "AlanMorris",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "Short talks on developer subjects.",
+      "sessionOrder" : 1,
+      "id" : "fasttech2",
+      "timeEnd" : "10:10",
+      "title" : "Lightning talks",
+      "timeStart" : "09:30",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-13",
+      "speakerId" : "",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "Apple's new Codable interface is easy to use simply, but has powerful potential in more complex situations.",
+      "sessionOrder" : 2,
+      "id" : "codable",
+      "timeEnd" : "10:50",
+      "title" : "Decoding Codable",
+      "timeStart" : "10:10",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-13",
+      "speakerId" : "ChrisPrice",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "Coffee and cakes available in the Physics Foyer. ",
+      "sessionOrder" : 3,
+      "id" : "coffee5",
+      "timeEnd" : "11:20",
+      "title" : "Coffee Break",
+      "timeStart" : "10:50",
+      "sessionType" : "coffee",
+      "sessionDate" : "2019-12-13",
+      "speakerId" : "",
+      "locationId" : "foyer"
+    },
+    {
+      "content" : "Storyboards and XIBs create horrible merge-conficts in teams, are unreviewable in Pull-Requests and they don't even support comments. So no responsible developer in a team should ever be using Interface Builder for a serious iOS project, right?",
+      "sessionOrder" : 4,
+      "id" : "ibawesome",
+      "timeEnd" : "12:00",
+      "title" : "Interface Builder considered awesome",
+      "timeStart" : "11:20",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-13",
+      "speakerId" : "JoachimKurz",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "Scotty explores the wonder of the software industry",
+      "sessionOrder" : 5,
+      "id" : "havoc",
+      "timeEnd" : "12:40",
+      "title" : "Cry 'Havoc!' and let slip the dogs of software",
+      "timeStart" : "12:00",
+      "sessionType" : "talk",
+      "sessionDate" : "2019-12-13",
+      "speakerId" : "SteveScott",
+      "locationId" : "physmain"
+    },
+    {
+      "content" : "This hack session will have the challenge of building a working Apple Watch game.",
+      "sessionOrder" : 6,
+      "id" : "hack",
+      "timeEnd" : "23:30",
+      "title" : "ARKit hack",
+      "timeStart" : "13:30",
+      "sessionType" : "workshop",
+      "sessionDate" : "2019-12-13",
+      "speakerId" : "",
+      "locationId" : "b23"
+    }
+  ],
+  "locations" : [
+    {
+      "id" : "b23",
+      "latitude" : 52.416367000000001,
+      "name" : "Llandinam B23",
+      "longitude" : -4.0662989999999999,
+      "placeDescription" : "The Hack on Thursday afternoon and evening will be run in this workroom."
+    },
+    {
+      "id" : "spoons",
+      "latitude" : 52.414175999999998,
+      "name" : "Yr Hen Orsaf",
+      "longitude" : -4.0818099999999999,
+      "placeDescription" : "This cafe is next to the railway station, so handy for meeting when we all arrive."
+    },
+    {
+      "id" : "foyer",
+      "latitude" : 52.415940999999997,
+      "name" : "Physics Foyer",
+      "longitude" : -4.0658180000000002,
+      "placeDescription" : "This is the location for the refreshments provided during the conference."
+    },
+    {
+      "id" : "physmain",
+      "latitude" : 52.415940999999997,
+      "name" : "Physics Main",
+      "longitude" : -4.0658180000000002,
+      "placeDescription" : "Main lecture theatre for the conference, near where registration happens."
+    },
+    {
+      "id" : "a6",
+      "latitude" : 52.416469999999997,
+      "name" : "Llandinam A6",
+      "longitude" : -4.0665440000000004,
+      "placeDescription" : "A6 is on the road below the Physical Sciences building. Turn right and it is about 100 meters on the right."
+    },
+    {
+      "id" : "medrus",
+      "latitude" : 52.417940999999999,
+      "name" : "Medrus Mawr",
+      "longitude" : -4.0648229999999996,
+      "placeDescription" : "The conference meal will be in Medrus, which is in the Penbryn building, close to the main entrance to campus."
+    }
+  ],
+  "version" : 1
+}

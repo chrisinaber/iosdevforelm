@@ -1,0 +1,128 @@
+[
+    {
+      "biography" : "Adam Rush is a passionate iOS developer with over 6 years commercial experience, contracting all over the UK & Europe. He's a tech addict and #Swift enthusiast.",
+      "id" : "AdamRush",
+      "twitter" : "adam9rush",
+      "name" : "Adam Rush"
+    },
+    {
+      "biography" : "Agnieszka is a UX designer at Polidea.",
+      "id" : "AgnieszkaCzyzak",
+      "twitter" : "agaczyzak",
+      "name" : "Agnieszka  Czyak"
+    },
+    {
+      "biography" : "With over 16 years in the tech and development industry, for organisations such as Orange and Accenture, Alan ran a successful iOS development agency before joining hedgehog lab to lead the development team.",
+      "id" : "AlanMorris",
+      "twitter" : "dippigu",
+      "name" : "Alan Morris"
+    },
+    {
+      "biography" : "App developer from Coventry, working for Facebook. Likes singing, cooking and playing board games.",
+      "id" : "AmyWorrall",
+      "twitter" : "amyruthworrall",
+      "name" : "Amy Worrall"
+    },
+    {
+      "biography" : "I am a passionate iOS developer. TDD evangelist and Software Architect who cares about quality and creating maintainable and clear code.",
+      "id" : "AndreyKozlov",
+      "twitter" : "a_rayand",
+      "name" : "Andrey Kozlov"
+    },
+    {
+      "biography" : "Chris is one of the organisers for iOSDevUK. He is also a lecturer at Aberystwyth University in Computer Science. He has a number of Apps in the App store to help people to learn Welsh. ",
+      "id" : "ChrisPrice",
+      "twitter" : "iOSDevUK",
+      "name" : "Chris Price"
+    },
+    {
+      "biography" : "Claus supports the iOS Team at HERE as a Tech Lead to create personal mobility services for consumers. Author of AlexaSkillsKit and CCHMapClusterController",
+      "id" : "ClausHofele",
+      "twitter" : "claushoefele",
+      "name" : "Claus Höfele"
+    },
+    {
+      "biography" : "Daniel has been a Cocoa developer since the Java Bridge existed when macOS was known as OS X. He has since made his way up from developing apps for Sky, Tesco, BBC, Nespresso and Danone to the heights of Gok Wan’s glorious fashion app.",
+      "id" : "DanielTull",
+      "twitter" : "danielctull",
+      "name" : "Daniel Tull "
+    },
+    {
+      "biography" : "Joachim is working as an iOS developer at Yelp and he likes to give talks about APIs and tools that are super-valuable in day-to-day live but are often overshadowed by discussions about the newest technologies or yet another architecture style. One of his favorite review-comments is 'there is a formatter for that'. He has seen many ways to do formatting badly and many unnecessary `stringWithFormat:` calls and is trying to fight them where possible",
+      "id" : "JoachimKurz",
+      "twitter" : "cocoafrog",
+      "name" : "Joachim Kurz"
+    },
+    {
+      "biography" : "Martin has been developing for Apple’s platforms for 13 years. More recently he has been trying to get Objective-C and Swift to play nicely with each other, and ranting on Twitter when they don’t.",
+      "id" : "MartinPilkington",
+      "twitter" : "pilky",
+      "name" : "Martin Pilkington"
+    },
+    {
+      "biography" : "Neil helps out with iOSDevUK and worked on the conference App. He also lectures in Computer Science at Aberystwyth University. He works with Chris Price on the Welsh language apps.",
+      "id" : "NeilTaylor",
+      "twitter" : "digidol",
+      "name" : "Neil Taylor"
+    },
+    {
+      "biography" : "Rebecca focuses on mobile and data science - with a special fondness for the intersection of the two. Before getting into programming, she read a lot of philosophy and literature and finds now that poetry and great code aren’t so different.",
+      "id" : "RebeccaEakins",
+      "twitter" : "ohrebeccago",
+      "name" : "Rebecca Eakins"
+    },
+    {
+      "biography" : "Senior iOS Developer at Sainsbury's-Argos in London. Formerly BBC, working on CBeebies, CBBC and iPlayer products. Frequent speaker at meetups and conferences as well as ex-organiser of NSManchester, a meetup for iOS developers in the North-West.",
+      "id" : "RossButler",
+      "twitter" : "ross_w_butler",
+      "name" : "Ross Butler"
+    },
+    {
+      "biography" : "Sam works writing books and giving training for raywenderlich.com",
+      "id" : "SamDavies",
+      "twitter" : "iwantmyrealname",
+      "name" : "Sam Davies"
+    },
+    {
+      "biography" : "Scotty is legendary in the MAC community as the organiser of the sadly defunct NSConference, but still appearing live at iOSDevUK.",
+      "id" : "SteveScott",
+      "twitter" : "macdevnet",
+      "name" : "Steve Scott"
+    },
+    {
+      "biography" : "Steve is Engineering Manager at Boots UK.",
+      "id" : "SteveWestgarth",
+      "twitter" : "stevewestgarth",
+      "name" : "Steve Westgarth"
+    },
+    {
+      "biography" : "Software engineer. Author of the forthcoming Metal Programming Guide. ENFJ. Agent of the revolution. Doer of impossible things.",
+      "id" : "JanieClayton",
+      "twitter" : "redqueencoder",
+      "name" : "Janie Clayton"
+    },
+    {
+      "biography" : "Sarp is a mobile app developer , designer and entrepreneur from Istambul focusing on developing top-notch software products.",
+      "id" : "SarpErdag",
+      "twitter" : "sarperdag",
+      "name" : "Sarp Erdag"
+    },
+    {
+      "biography" : "Elviro worked for some years as a Materials Engineer before focusing on his true passion: functional programming. He is the lead iOS Developer at Facile.it",
+      "id" : "ElviroRocca",
+      "twitter" : "_logicist",
+      "name" : "Elviro Rocca"
+    },
+    {
+      "biography" : "Sash Zats is a designer and generative artist building toools for designers at Facebook. ",
+      "id" : "SashZats",
+      "twitter" : "zats",
+      "name" : "Sash Zats"
+    },
+    {
+      "biography" : "Steven works in Oregon for SoftSource Consulting.",
+      "id" : "StevenGray",
+      "twitter" : "sgray_sftsrc",
+      "name" : "Steven Gray"
+    }
+  ]
