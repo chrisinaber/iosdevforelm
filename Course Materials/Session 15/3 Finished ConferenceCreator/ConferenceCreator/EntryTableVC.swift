@@ -20,8 +20,8 @@ class EntryTableVC: UITableViewController {
         // If name is blank, give an alert
         //else add speaker to speaker list and return
         if let name = speakerName.text, let bio = speakerBio.text, let twitter = twitterHandle.text {
-            let id = name.trimmingCharacters(in: .whitespacesAndNewlines)
-            if id == "" {
+            let id = name.filter{$0 != " "}
+             if id == "" {
                 let alert = UIAlertController(title: "Sorry", message: "You need to add a name to save a speaker", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
