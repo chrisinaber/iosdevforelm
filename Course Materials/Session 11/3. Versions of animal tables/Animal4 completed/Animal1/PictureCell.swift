@@ -2,15 +2,17 @@
 //  PictureCell.swift
 //  Animal1
 //
-//  Created by Chris Price on 17/06/2021.
+//  Created by Chris Price on 07/02/2022.
 //
 
 import UIKit
 
 class PictureCell: UITableViewCell {
+    @IBOutlet var photo: UIImageView!
+    @IBOutlet var animalName: UILabel!
 
-    @IBOutlet weak var photo: UIImageView!
-    
-    @IBOutlet weak var animalName: UILabel!
-    
+    func configure(photoName: String, animal: String) {
+        photo.image = UIImage(named: photoName)
+        animalName.text = animal
+    }
 }
